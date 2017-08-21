@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>inge.sebas</title>
+  <link rel="StyleSheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="StyleSheet" type="text/css" href="css/unslider.css">
+  <script src="js/unslider.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script>
+    jQuery(document).ready(function($) {
+      $('.slider').unslider({
+        arrows: false,
+        autoplay: true
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="left-sidebar">
+      <div class="left">
+        <p class="name">JUAN SEBASTIAN MATAMOROS REYES</p>
+        <p>31 a&ntilde;os, Bogota</p>
+      </div>
+      <hr>
+      <div class="title">
+        <p>Profesion</p>
+        <p id="title">Ing. Ind. MSc en Logistica</p>
+      </div>
+      <div class="city">
+        <p>Ciudad Actual</p>
+        <p id="city">Mendoza, Argentina</p>
+      </div>
+    </div>
+    <div id="middle-content">
+      <div class="header">
+        <div id="hobbies">
+          <img id="hobbies-img" src="images/hobbies.svg" alt="">
+          <h4>Hobbies</h4>
+          <ul>
+            <li>Ver Peliculas y Series</li>
+            <li>Trekking</li>
+            <li>Viajar</li>
+            <li>Mantenimiento de computadoras</li>
+          </ul>
+        </div>
+        <div id="profile">
+          <img id="profile-img" src="images/user.svg" alt="">
+          <h4>Quien soy!</h4>
+          <p>Soy Ingeniero Industrial con Master en Logística. La tesis fue sobre transporte público, donde propuse
+            implementar calzadas exclusivas para micros en la ciudad de Mendoza. A partir de este trabajo adquirir
+            experiencia en el manejo de software para micro simular modelos de tránsito y tráfico. Me considero una
+            persona comprometida, responsable y con iniciativa. Actualmente me encuentro trabajando como Project Manager
+            en Olpays LLC ubicada en la ciudad de Mendoza. Otra importante experiencia laboral consistió en dirigir como
+            Project Manager una Unidad de negocio en una Startup mendocina. Esto me aportó experiencia y conocimiento
+            para dirigir proyectos y equipos de forma eficiente, implementando nuevas formas de trabajo en equipo
+            garantizando un buen ambiente de trabajo y resultados de calidad.</p>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="goals">
+          <img id="goals-img" src="images/goal.svg" alt="">
+          <h4>Objetivos</h4>
+          <p>Mis objetivos son poder aprender todo lo que pueda del cargo que vaya a desempeñar, tanto como transferir
+          mi conocimiento al mismo, con el fin de realizar una buena labor y colaborar con las metas propuestas por
+          la organización.<p>
+        </div>
+        <div class="apps">
+          <h4>Apps frecuentemente usadas</h4>
+          <img id="jira-img" src="images/jira_logo.svg" alt="">
+          <img id="gsuite-img" src="images/gsuite_logo.svg" alt="">
+          <img id="excel-img" src="images/excel_logo.svg" alt="">
+        </div>
+      </div>
+      <div class="footer">
+        <div class="studies">
+          <img class="footer-img" src="images/open-book.svg" alt="">
+          <h4>Estudios</h4>
+            <ul id="studies">
+              <li><strong>Master en Logistica</strong> - Universidad Nacional de Cuyo; Mendoza - Argentina; 2016</li>
+              <li><strong>Ing. Industrial</strong> - Universidad Libre; Bogota D.C - Colombia; 2010</li>
+              <br>
+              <li>Desarrollo Web Full Stack - Greendemia Academy; Mendoza - Argentina</li>
+              <li>Think Different: Innovar para Competir - Universidad Austral; BsAs - Argentina; 2015</li>
+            </ul>
+          <hr class="footer-bar">
+          <img class="footer-img" src="images/business-report.svg" alt="">
+          <h5>Portfolio</h5>
+            <div class="slider">
+              <ul id="reports">
+                <li>Microsimulación Carriles Exclusivos en la Ciudad de Mendoza. “Medio Día” - Empresa Maipu Transporte de Pasajeros; Mendoza - Argentina; 2016</li>
+              </ul>
+            </div>
+        </div>
+        <div class="jobs">
+          <img class="footer-img" src="images/handshake.svg" alt="">
+          <h4>Trabajos</h4>
+            <ul id="jobs">
+              <li>Project Manager - Olpays LLC.; Enero 2017 - Actual</li>
+              <li>Team Leader - Aconcagua S.F.; Junio 2016 - Enero 2017</li>
+              <li>Project Manager - Tween S.A.; Agosto 2012 - Junio 2015</li>
+              <li>Analista Organizacional - BBVA Colombia; Agosto 2010 - Marzo 2012</li>
+              <li>Asistente Organizacion y Metodos - Makro Supermayorista; Noviembre 2009 - Junio 2010</li>
+              <li>Auxiliar Administrativo - Profamilia; Diciembre 2006 - Enero 2007</li>
+            </ul>
+          <hr class="footer-bar">
+          <img class="footer-img" src="images/phone-call.svg" alt="">
+          <h5>Referencias</h5>
+            <ul id="references">
+              <li>Alcibiades Rodriguez; Gerente Mantenimiento y Desarollo - BBVA Colombia; +5713822600 Ext 1351</li>
+              <li>Carlos Tomba; IT Team manager consultant - Holos Consulting; +5492616541397</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div id="right-sidebar">
+      <div id="phrase">
+        <img id="quotation" src="images/quotation-marks.svg" alt="quotation mark">
+        <h5>La riqueza corrompe tanto como la pobreza. Los ricos tienen que aprender a dar y los pobres aprender
+          a no pedir. - Alejandro Jodorowsky</h5>
+        <img id="quotation2" src="images/quotation-marks.svg" alt="quotation mark">
+      </div>
+      <div id="ability">
+        <div id="skills">
+          <h3>Habilidades</h3>
+          <ul>
+            <li>Scrum:</li>
+            <div class="skill-container">
+              <div class="skills css-scrum">90%</div>
+            </div>
+            <li>Excel:</li>
+            <div class="skill-container">
+              <div class="skills css-excel">65%</div>
+            </div>
+            <li>Aimsun NG 5.1:</li>
+            <div class="skill-container">
+              <div class="skills css-aimsun">60%</div>
+            </div>
+            <li>MySql:</li>
+            <div class="skill-container">
+              <div class="skills css-mysql">20%</div>
+            </div>
+          </ul>
+        </div>
+        <hr id="skills-bar">
+        <h3>Lenguajes</h3>
+          <ul class="languages">
+            <li>Espa&ntilde;ol:</li>
+            <div class="skill-container">
+              <div class="skills css-español">100%</div>
+            </div>
+            <li>Ingles:</li>
+            <div class="skill-container">
+              <div class="skills css-ingles">65%</div>
+            </div>
+          </ul>
+      </div>
+      <div id="contacinformation">
+        <ul>
+          <div class="mail">
+            <img id="mail" src="images/mail.svg" alt="">
+            <li>inge.sebas86@gmail.com</li>
+          </div>
+          <div class="phone">
+            <img id="phone" src="images/whatsapp.svg" alt="">
+            <li>+5492613385168</li>
+          </div>
+          <div class="skype">
+            <img id="skype" src="images/skype.svg" alt="">
+            <li>juansebastianmatamorosreyes</li>
+          </div>
+          <div class="linkedin">
+            <img id="linkedin" src="images/linkedin.svg" alt="">
+            <li><a href="https://www.linkedin.com/in/sebasmatamoros">sebasmatamoros</a></li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+  </html>
