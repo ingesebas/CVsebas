@@ -3,19 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>inge.sebas</title>
-  <link rel="StyleSheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="StyleSheet" type="text/css" href="css/unslider.css">
-  <script src="js/unslider.js"></script>
+  <link rel="StyleSheet" type="text/css" href="css/style.css">
   <script src="js/jquery.min.js"></script>
-  <script>
-    jQuery(document).ready(function($) {
-      $('.slider').unslider({
-        arrows: false,
-        autoplay: true
-      });
-    });
-  </script>
+  <script src="js/unslider.js"></script>
 </head>
 
 <body>
@@ -92,6 +84,8 @@
             <div class="slider">
               <ul id="reports">
                 <li>Microsimulación Carriles Exclusivos en la Ciudad de Mendoza. “Medio Día” - Empresa Maipu Transporte de Pasajeros; Mendoza - Argentina; 2016</li>
+                <li>Pronto</li>
+                <li>Pronto2</li>
               </ul>
             </div>
         </div>
@@ -180,6 +174,14 @@
       </div>
     </div>
   </div>
+  <script>
+    jQuery(document).ready(function($) {
+      $('.slider').unslider({
+        arrows: false,
+        autoplay: true
+      });
+    });
+  </script>
 </body>
 
   </html>
